@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mydiv">
+        <h1>Hello</h1>
+    </div>
+    <button id="btn">click</button>
+</body>
+
+<script>
+    let btn = document.getElementById("btn");
+
+    let div =document.getElementById("mydiv");
+
+    btn.addEventListener("click",()=>{
+    div.innerHTML = "<h1>How Are You!</h1>";
+    //alert("Good")
+    })
+
+  
+</script>
+</html>
